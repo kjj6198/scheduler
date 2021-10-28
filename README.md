@@ -60,7 +60,6 @@ class TodoWork : Scheduler(), Workable {
   }
 }
 
-// will register a cronjob
 fun main() {
 	val worker = TestWork()
 	val ts = System.currentTimeMillis().plus(1000).toDouble()
